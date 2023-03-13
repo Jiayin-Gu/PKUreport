@@ -1,0 +1,113 @@
+\documentclass[a4paper, 10pt, final, onecolumn, openany, titlepage, twoside]{book}
+\usepackage[nocap]{ctex} %% 中文宏包
+\usepackage{fancyhdr} %% 负责控制页眉、页脚相关设置的宏包
+\usepackage[text={150mm, 225mm}, left=30mm, vmarginratio=1:1]{geometry} %% 负责版面设计的宏包
+\usepackage{graphicx} %% 和插图相关的宏包
+\usepackage{amssymb, amsfonts, amsmath, amsthm, mathtools} %% 数学相关宏包
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\usepackage{setspace} %% 调整行距的宏包
+\usepackage{sectsty}
+\usepackage[titletoc]{appendix}
+\usepackage{listings} %% 代码展示宏包
+\usepackage[usenames, dvipsnames]{xcolor} %% 颜色宏包
+\usepackage{bigstrut} %% 该宏包提供 \bigstrut 命令，可以增大表格的行间距
+\usepackage{array} %% 制表宏包
+\usepackage{braket} %% Dirac bra and ket notation
+\usepackage[colorlinks, linkcolor=blue, anchorcolor=red, citecolor=blue]{hyperref} %% 负责各种交叉引用的宏包
+\usepackage[backend=biber, style=numeric-comp, sorting=none, maxbibnames=3, minbibnames=3]{biblatex} %% 文献处理宏包
+\usepackage{ulem}
+\usepackage[final]{pdfpages} %% 用于导入插入pdf文档的宏包
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} %% 输入字体编码宏包
+\usepackage{lmodern} %% 英文字体宏包 (Latin Modern Roman, Latin Modern Dunhill, Latin Modern Sans Serif, Latin Modern Sans Typewriter)
+\usepackage[english]{babel}
+
+
+
+
+\pagestyle{fancy}  %% 页眉设置
+\fancyhf{}
+\fancyhead[OL]{\color{gray}\nouppercase\leftmark}
+\fancyhead[ER]{\color{gray}\nouppercase\leftmark}
+\fancyhead[EL, OR]{\thepage}
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}\fancyhf{}}
+
+
+
+\lstset{basicstyle=\footnotesize\ttfamily, columns=fullflexible, numbers=left, numbersep=5pt, numberstyle=\tiny, backgroundcolor=\color{white}, frame=single, breaklines=true, showtabs=false, showspaces=false, showstringspaces=false, keywordstyle=\color{teal}, commentstyle=\color{blue}, stringstyle=\color{red}, numberstyle=\color{gray}, tabsize=8, breakatwhitespace=false, postbreak=\mbox{\textcolor{violet}{$\hookrightarrow$}\space}}  %% 代码展示相关设置
+
+
+\renewcommand{\ULthickness}{0.7pt} %% 设置封面中下划线的粗细程度
+
+
+\chapternumberfont{\Huge}\chaptertitlefont{\huge}
+\sectionfont{\Large}
+\subsectionfont{\large}
+
+
+
+\makeatletter  %% 自定义的引述环境
+\newenvironment{PKUquote}[2][2em]
+  {\setlength{\@tempdima}{#1}\def\chapquote@author{#2}\parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax\itshape}
+  {\par\normalfont\hfill--- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+
+
+
+\addbibresource{Bibliography.bib} %% 加入参考文献库文件
+
+
+
+
+\begin{document}
+
+
+\input{Cover.tex} %% 封面
+\includepdf{Declaration.pdf} %% 声明
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+
+\frontmatter
+
+
+\input{Acknowledgements.tex} %% 致谢
+\input{Abstract.tex} %% 摘要
+\begin{spacing}{1.1}
+\tableofcontents %% 目录
+\end{spacing}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+
+
+
+\mainmatter
+
+\def\path{Introduction}\input{\path/Chapter.tex} %% 导论
+\def\path{Fluctuation_theorem}\input{\path/Chapter.tex}
+\def\path{Conclusion_and_perspectives}\input{\path/Chapter.tex} %% 总结与展望
+
+
+
+\begin{appendices}
+\def\path{Appendices}\input{\path/Appendices.tex} %% 附录
+\end{appendices}
+
+
+
+
+\begin{spacing}{0.98}
+\renewcommand{\uline}{\textit}
+\printbibliography[heading=bibintoc, title={Bibliography}]  %% 打印参考文献
+\end{spacing}
+
+
+
+
+\backmatter
+
+\input{Publications.tex} %% 文章发表
+
+\end{document}

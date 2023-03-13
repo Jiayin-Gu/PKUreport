@@ -1,0 +1,47 @@
+\section{Jarzynski Equality}
+
+
+
+
+
+
+\par In 1997, Jarzynski proved a remarkable relation,
+\begin{align}
+\left\langle{\rm e}^{-\beta W}\right\rangle={\rm e}^{-\beta\Delta F} \text{,} \label{FT:eq:Jarzynski_equality}
+\end{align}
+where $W$ is the work done on a system that is initially in thermal equilibrium and driven out of equilibrium by an external force evolving under a protocol which is parameterized by $\lambda$ from the value $A$ to $B$. $\Delta F=F_B-F_A$ denotes the free energy difference between the final equilibrium ensemble and the initial equilibrium ensemble, and $\langle\cdot\rangle$ stands for the average over the repetition of driving~\cite{Jarzynski_PhysRevLett_1997, Jarzynski_PhysRevE_1997, Jarzynski_JStatMech_2004, Jarzynski_EurPhysJB_2008, Jarzynski_AnnuRevCondensMatterPhys_2011}. This relation was later called Jarzynski equality, allowing to express the free energy difference between two equilibrium states by a nonlinear average over the required work to drive the system in a nonequilibrium process from one state to the other. From the Jarzynski equality, the Clausius inequality can be immediately obtained as a corollary, $\langle W\rangle\ge\Delta F$, thus in accord with the second law of thermodynamics. 
+
+\par We now derive the Jarzynski equality in the framework of classical statistical physics. Let's consider a system described by the Hamiltonian $H(x;\lambda)$, where $x\equiv({\bf q},{\bf p})$ denotes the microstate and $\lambda$ represents the external control parameter. When this system is equilibrated with a thermal environment, its microstate can be viewed as a random variable sampled from the Boltzmann-Gibbs distribution
+\begin{align}
+{\cal P}_{\lambda}^{\rm eq}(x)=\frac{1}{Z_{\lambda}}{\rm e}^{-\beta H(x;\lambda)} \text{.} \label{FT:eq:equilibrium_distribution}
+\end{align}
+The partition function and free energy are given by the familiar expressions:
+\begin{align}
+Z_{\lambda}=\int{\rm d}x\,{\rm e}^{-\beta H} \text{,}\hspace{1cm} F_{\lambda}=-\beta^{-1}\ln Z_{\lambda} \text{.}
+\end{align}
+Under a driven protocol $\lambda_t,0\le\lambda\le\tau$, after being prepared in equilibrium, the system evolves in time as $\lambda$ is switched from $\lambda_0=A$ to $\lambda_{\tau}=B$. Because the system is thermally isolated in this process, the work done on the system is simply the net change in its internal energy
+\begin{align}
+W(x_0)=H(x_{\tau}(x_0);B)-H(x_0;A) \text{.}
+\end{align}
+Here, $x_{\tau}(x_0)$ denotes the final coordinate in phase space, conditioned that the trajectory launched from the initial coordinate $x_0$. The left-hand side of Eq.~(\ref{FT:eq:Jarzynski_equality}) is then an average of $\exp[-\beta W(x_0)]$ over the initial conditions sampled from the equilibrium distribution~(\ref{FT:eq:equilibrium_distribution}) at $\lambda=A$:
+\begin{align}
+\langle{\rm e}^{-\beta W}\rangle & =\int{\rm d}x_0{\cal P}_A^{\rm eq}(x_0)\,{\rm e}^{-\beta W(x_0)} \nonumber \\
+& =\frac{1}{Z_A}\int{\rm d}x_0\,{\rm e}^{-\beta H(x_{\tau}(x_0);B)} \nonumber \\
+& =\frac{1}{Z_A}\int{\rm d}x_{\tau}\left\vert\frac{\partial x_{\tau}}{\partial x_0}\right\vert^{-1}{\rm e}^{-\beta H(x_{\tau};B)} \text{,}
+\end{align}
+where we have changed the variables of integration from $x_0$ to $x_{\tau}(x_0)$. Such a change of variable is permitted since there is a one-to-one correspondence between final and initial coordinates under Hamiltonian evolution. The additional factor in the last line is the Jacobian associated with the change of variables. Since the volume of phase space is conversed by the Liouville theorem~\cite{Landau_1976}, this factor is exactly unity. Hence
+\begin{align}
+\langle{\rm e}^{-\beta W}\rangle=\frac{1}{Z_A}\int{\rm d}x_{\tau}{\rm e}^{-\beta H(x_{\tau};B)}=\frac{Z_B}{Z_A}={\rm e}^{-\beta\Delta F} \text{.}
+\end{align}
+Q.E.D.
+
+
+
+
+
+
+
+
+
+
+

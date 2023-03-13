@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.1}%
+\contentsline {chapter}{\centering \heiti 内容摘要}{ii}{chapter*.2}%
+\contentsline {chapter}{Abstract}{iii}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Outline}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Fluctuation Theorem}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Jarzynski Equality}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Gallavotti-Cohen Fluctuation Theorem}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Conclusion and Perspectives}{4}{chapter.3}%
+\contentsline {chapter}{Appendix \numberline {A}Numerical Details and Code Implementations}{5}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}关于此模板}{7}{appendix.a.B}%
+\contentsline {chapter}{Bibliography}{9}{appendix*.13}%
+\contentsline {chapter}{Publications}{10}{appendix*.14}%

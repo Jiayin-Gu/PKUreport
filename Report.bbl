@@ -1,0 +1,302 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Jarzynski_PhysRevLett_1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Nonequilibrium Equality for Free Energy Differences}
+      \field{volume}{78}
+      \field{year}{1997}
+      \field{pages}{2690\bibrangedash 2693}
+      \range{pages}{4}
+    \endentry
+    \entry{Jarzynski_PhysRevE_1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{title}{Equilibrium Free-Energy Differences from Nonequilibrium Measurements: A Master-Equation Approach}
+      \field{volume}{56}
+      \field{year}{1997}
+      \field{pages}{5018\bibrangedash 5035}
+      \range{pages}{18}
+    \endentry
+    \entry{Jarzynski_JStatMech_2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ef58c0dd59b8ef3fa14421476cbc3077}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{fullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{bibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorbibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authornamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorfullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{P09005}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{title}{Nonequilibrium Work Theorem for A System Strongly Coupled to A Thermal Environment}
+      \field{year}{2004}
+    \endentry
+    \entry{Jarzynski_EurPhysJB_2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal B: Condensed Matter and Complex Systems}
+      \field{title}{Nonequilibrium Work Relations: Foundations and Applications}
+      \field{volume}{64}
+      \field{year}{2008}
+      \field{pages}{331\bibrangedash 340}
+      \range{pages}{10}
+    \endentry
+    \entry{Jarzynski_AnnuRevCondensMatterPhys_2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ef58c0dd59b8ef3fa14421476cbc3077}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{fullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{bibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorbibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authornamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorfullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Condensed Matter Physics}
+      \field{title}{Equalities and Inequilities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{329\bibrangedash 351}
+      \range{pages}{23}
+    \endentry
+    \entry{Landau_1976}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ab77fc1405f1025268c1fed8c4fe3104}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1e5737ddc6200d0118261e7bc577ab25}{%
+           family={Lifshitz},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{fullhash}{0c0920d244a4ef518dc023815875721c}
+      \strng{bibnamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorbibnamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authornamehash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorfullhash}{0c0920d244a4ef518dc023815875721c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Third Edition}
+      \field{note}{Translated from the Russian by J. B. Sykes and J. S. Bell}
+      \field{title}{Mechanics}
+      \field{year}{1976}
+    \endentry
+    \entry{GrahamCumming_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1a602b152401ec4c8f29a1555f8cad6f}{%
+           family={Graham-Cumming},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {No Starch Press}%
+      }
+      \strng{namehash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{fullhash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{bibnamehash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{authorbibnamehash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{authornamehash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{authorfullhash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The GNU Make Book}
+      \field{year}{2015}
+    \endentry
+    \entry{GSL_manual_2021}{manual}{}
+      \name{author}{9}{}{%
+        {{hash=385ea8f26b1fa42308b2e1c4e6a18ae5}{%
+           family={Galassi},
+           familyi={G\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6329c0a1456dba49dd548e57262fb9a9}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3ebb10a577afae935bde2ad87630005c}{%
+           family={Theiler},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4d553f5dccc3b426815e5951e6ce28ad}{%
+           family={Gough},
+           familyi={G\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=52eee430c22e383389050c94f0ebe247}{%
+           family={Jungman},
+           familyi={J\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=948c32845828abec851c3d37fb1a9557}{%
+           family={Alken},
+           familyi={A\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0ebf8d43d2c7afe77d5e0fd6f9e51f73}{%
+           family={Booth},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4bf9f0089fd5277b0654d7f825a4eec1}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{hash=99c21c0b4418e61a812868c9d32f881f}{%
+           family={Ulerich},
+           familyi={U\bibinitperiod},
+           given={Rhys},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc246f838e6304593fc518e560006fce}
+      \strng{fullhash}{ea7fb682acfe0a75c32d72c1e1afd970}
+      \strng{bibnamehash}{7e7b26975814c9f5c0f7bc0f42ff017b}
+      \strng{authorbibnamehash}{7e7b26975814c9f5c0f7bc0f42ff017b}
+      \strng{authornamehash}{fc246f838e6304593fc518e560006fce}
+      \strng{authorfullhash}{ea7fb682acfe0a75c32d72c1e1afd970}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\href{https://www.gnu.org/software/gsl/doc/latex/gsl-ref.pdf}{GNU Scientific Library, Release 2.7}}
+      \field{year}{2021}
+    \endentry
+    \entry{Fishman_SciPostPhysCodeb_2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=50f69a7db78259969326b238d118a681}{%
+           family={Fishman},
+           familyi={F\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f310d2e0232138ba6117db89589f7c32}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=475b4be3a25b303ea6af7dc73ffd4c88}{%
+           family={Stoudenmire},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi Miles},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{fullhash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{bibnamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{authorbibnamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{authornamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{authorfullhash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{4}
+      \field{journaltitle}{SciPost Physics Codebases}
+      \field{title}{The ITensor Software Library for Tensor Network Calculations}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

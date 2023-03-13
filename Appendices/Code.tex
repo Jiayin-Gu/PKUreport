@@ -1,0 +1,93 @@
+\chapter{Numerical Details and Code Implementations}\label{chap:code}
+
+
+\begin{PKUquote}{Donald E. Knuth}
+Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+\end{PKUquote}
+
+
+
+
+
+\noindent Computer programming plays an increasing important role in scientific research. It has de-facto become a pillar in scientific research, to be complementary with theory and experiment. A scientist might first build a model to describe a physical system according to the underlying physical laws, then use a computer to calculate the results and visualize them. This is now a widely adopted paradigm in scientific community. This appendix is devoted to the numerical details and code implementations about the DMRG approach to counting statistics. The required software and code written in C++ are presented in detail. Some explanatory remarks are also given.
+
+
+
+
+
+
+\section*{Required Software}
+
+
+The following listed software are those minimal requirements for the code presented in next section to be compiled and executed correctly.
+\begin{itemize}
+\item \href{https://releases.ubuntu.com/22.04/}{Ubuntu 22.04} -- one of the most popular distribution of Linux operating system. Other version might also be OK, but it is highly recommended to use the most recent one.
+\item \href{https://gcc.gnu.org/}{g++} -- an open-source C++ compiler included in GCC (GNU Compiler Collection). It can be installed on Ubuntu with the command \texttt{sudo apt install g++}.
+\item \href{https://www.gnu.org/software/make/}{GNU Make} -- a utility that facilitates compiling a program from source code. It reads from a file named \texttt{Makefile} which includes a set of instructions to be executed. It can be installed on Ubuntu with the command \texttt{sudo apt install make}. Readers are referred to Ref.~\cite{GrahamCumming_2015} for detailed account.
+\item \href{https://www.gnu.org/software/gsl/}{GSL} (GNU Scientific Library) -- an open-source library for C/C++ programmers. It is licensed under the GNU General Public License (GPL). It can be installed on Ubuntu with the command \texttt{sudo apt install gsl-bin libgsl27 libgsl-dbg libgsl-dev}. The reference manual for this library is Ref.~\cite{GSL_manual_2021}.
+\item \href{https://itensor.org/}{ITensor} (Intelligent Tensor) -- an open-source library for performing tensor computation. It provides both C++ and Julia version, whereas the former is used here. The installation instructions comes with the downloaded source code from \href{https://github.com/ITensor/ITensor}{here}. Readers are referred to Ref.~\cite{Fishman_SciPostPhysCodeb_2022} for more details.
+\end{itemize}
+
+
+
+
+
+\section*{C++ Code for DMRG Approach to Counting Statistics}
+
+
+\par In the following, we show the code, which are written in separate text files:
+\begin{itemize}
+\item \texttt{Class\_model.h}.
+\end{itemize}
+
+
+
+
+\begin{spacing}{0.89} %% set the seperation between lines
+
+\begin{lstlisting}[language=C++, caption={\texttt{Class\_model.h}.}]
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <cmath>
+#include <vector>
+#include <itensor/all.h>
+
+class Cmodel
+{
+	public:
+		static itensor::Real m_D;
+		static itensor::Real m_Delta_x;
+		static int m_L;
+		static int m_N_L;
+		static int m_N_R;
+		static int m_Dim;
+		static itensor::IndexSet m_phys_indices;
+		static itensor::IndexSet m_mpo_bond_indices;
+		static std::vector<itensor::ITensor> m_mpo;
+
+		static void initialization(int, int, int, int);
+		static void parameterization(itensor::Real);
+		static itensor::Real A();
+
+
+		std::vector<itensor::ITensor> m_mps;
+		int m_center;
+
+		Cmodel(void);
+		Cmodel(const Cmodel &);
+		void print(std::string, int);
+		void canonication(int, int, itensor::Real);
+		itensor::Real Q(void);
+		itensor::Real P(int, int);
+		Cmodel &operator=(const Cmodel &);
+		std::vector<itensor::ITensor> prime(void);
+
+	private:
+		static itensor::Real factorial(int);
+		static std::vector<itensor::ITensor> idmps(void);
+};
+\end{lstlisting}
+
+\end{spacing}
+

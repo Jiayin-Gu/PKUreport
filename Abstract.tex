@@ -1,0 +1,34 @@
+\chapter{\centering\heiti 内容摘要}
+
+
+\begin{spacing}{1.5} %% set the seperation between lines
+\par 在这份研究报告中我们展示张量网络是如何用来在数值上研究非平衡系统中的涨落性质。特别地，我们聚焦于这样的系统，他们的自由度随着系统尺寸呈现指数增长关系，而其中相关量的涨落可以用一些统称为涨落定理的漂亮关系式来量化。张量网络方法被用来计算涨落的特征函数，从这些函数中可以提取出更加细致的信息。 
+
+\par 我们首先对于涨落定理给出一个简要的介绍。具体来说，我们在经典统计力学的框架中给出Jarzynski恒等式的推导，也基于马尔可夫随机动力学给出Gallavotti-Cohen涨落定理的推导。这两个关系式代表了非平衡物理在过去三十年的主要成就。
+
+\par 然后，我们介绍一种张量网络方法，可以用来计算初始处于热平衡态的量子格点系统的功分布。在这个方法中，动力学演化用Time Evolving Block Decimation (TEBD)方法模拟，初始的热平衡态可以通过直接TEBD方法制备，也可以通过Minimally Entangled Typical Thermal States (METTS)方法制备，后者产生一系列典型的态来代表吉布斯正则系综。作为一个示例，我们将此方法应用于处于横场和纵场中的伊辛链。在给定驱动下，可以计算出功分布的矩生成函数，从中验证了量子Jarzynski恒等式和一个包含任意可观察量泛函的广义的量子功关系式。
+
+\par 最后，我们将张量网络应用于对非平衡扩散系统中的随机粒子输运做计数统计。这个系统由一个一维的输运通道构成，两端分别接触粒子库。两种张量网络方法被用来实现这样一个应用，它们分别是Density Matrix Renormalization Group (DMRG, 密度矩阵重整化群)和TEBD。输运流的累计量生成函数被数值计算出来，并且和它们的解析解进行对比。我们发现了两者完美吻合，这充分说明了这些方法的有效性。此外，关于输运流的涨落定理也通过验证是成立的。
+\end{spacing}
+\vspace{5mm}
+\noindent {关键词：非平衡物理，涨落定理，功分布，计数统计，张量网络方法}
+
+
+
+
+
+
+
+\chapter{Abstract}
+
+\begin{spacing}{1.5} %% set the seperation between lines
+\par In this report we exhibit how tensor networks can be used to numerically investigate the fluctuation properties in nonequilibrium systems. In particular, we focus on the systems whose degrees of freedom grow exponentially with the system size, and in which the fluctuations of relevant quantities are quantified by some remarkable relations, collectively known as fluctuation theorem. Tensor-network approaches are applied to calculate the characteristic functions of fluctuations that more detailed information can be extracted from.
+
+\par We start by giving a brief introduction to the fluctuation theorem. Specifically, we present the derivations of the Jarzynski equality in the framework of classical statistical mechanics, and of the Gallavotti-Cohen fluctuation theorem for the Markovian stochastic dynamics. These two relations represent the major advance in nonequilibrium physics in the last three decades.
+
+\par Then, we introduce a tensor-network approach to calculate the statistics of work done on 1D quantum lattice systems initially prepared in thermal equilibrium states. In this approach, the dynamics is simulated with Time Evolving Block Decimation (TEBD), and the initial thermal equilibrium state is prepared either directly with TEBD or with Minimally Entangled Typical Thermal States (METTS), which generates a set of typical states representing the Gibbs canonical ensemble. As an illustrative example, we apply this approach to the Ising chain in mixed transverse and longitudinal fields. Under a prescribed protocol, the moment generating function for work distribution can be calculated, from which the quantum Jarzynski equality and the generalized quantum work relation involving a functional of an arbitrary observable are tested.
+
+\par Finally, we apply tensor networks to counting statistics for the stochastic particle transport in an out-of-equilibrium diffusive system. This system is composed of a one-dimensional channel in contact with two particle reservoirs at the ends. Two tensor-network algorithms, namely, Density Matrix Renormalization Group (DMRG) and TEBD, are respectively implemented. The cumulant generating function for the current is numerically calculated and then compared with its analytical solution. Excellent agreement is found, manifesting the validity of these approaches in such an application. Moreover, the fluctuation theorem for the current is shown to hold.
+\end{spacing}
+\vspace{5mm}
+\noindent {Keywords: Nonequilibrium Physics, Fluctuation Theorem, Work Statistics, Counting Statistics, Tensor-Network Approaches}
