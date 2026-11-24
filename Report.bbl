@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Jarzynski_PhysRevLett_1997}{article}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Jarzynski_PhysRevLett_1997}{article}{}{}
       \name{author}{1}{}{%
         {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
            family={Jarzynski},
@@ -29,10 +29,12 @@
       }
       \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -45,7 +47,7 @@
       \field{pages}{2690\bibrangedash 2693}
       \range{pages}{4}
     \endentry
-    \entry{Jarzynski_PhysRevE_1997}{article}{}
+    \entry{Jarzynski_PhysRevE_1997}{article}{}{}
       \name{author}{1}{}{%
         {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
            family={Jarzynski},
@@ -55,10 +57,12 @@
       }
       \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -71,7 +75,7 @@
       \field{pages}{5018\bibrangedash 5035}
       \range{pages}{18}
     \endentry
-    \entry{Jarzynski_JStatMech_2004}{article}{}
+    \entry{Jarzynski_JStatMech_2004}{article}{}{}
       \name{author}{1}{}{%
         {{hash=ef58c0dd59b8ef3fa14421476cbc3077}{%
            family={Jarzynski},
@@ -81,10 +85,12 @@
       }
       \strng{namehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{fullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{fullhashraw}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{bibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authorbibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authornamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authorfullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorfullhashraw}{ef58c0dd59b8ef3fa14421476cbc3077}
       \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -95,7 +101,7 @@
       \field{title}{Nonequilibrium Work Theorem for A System Strongly Coupled to A Thermal Environment}
       \field{year}{2004}
     \endentry
-    \entry{Jarzynski_EurPhysJB_2008}{article}{}
+    \entry{Jarzynski_EurPhysJB_2008}{article}{}{}
       \name{author}{1}{}{%
         {{hash=81b46fdf8427d6b9201bbbbf0b8a87a4}{%
            family={Jarzynski},
@@ -105,10 +111,12 @@
       }
       \strng{namehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{fullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{fullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{bibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorbibnamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authornamehash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \strng{authorfullhash}{81b46fdf8427d6b9201bbbbf0b8a87a4}
+      \strng{authorfullhashraw}{81b46fdf8427d6b9201bbbbf0b8a87a4}
       \field{extraname}{4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -121,7 +129,7 @@
       \field{pages}{331\bibrangedash 340}
       \range{pages}{10}
     \endentry
-    \entry{Jarzynski_AnnuRevCondensMatterPhys_2011}{article}{}
+    \entry{Jarzynski_AnnuRevCondensMatterPhys_2011}{article}{}{}
       \name{author}{1}{}{%
         {{hash=ef58c0dd59b8ef3fa14421476cbc3077}{%
            family={Jarzynski},
@@ -131,23 +139,25 @@
       }
       \strng{namehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{fullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{fullhashraw}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{bibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authorbibnamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authornamehash}{ef58c0dd59b8ef3fa14421476cbc3077}
       \strng{authorfullhash}{ef58c0dd59b8ef3fa14421476cbc3077}
+      \strng{authorfullhashraw}{ef58c0dd59b8ef3fa14421476cbc3077}
       \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Condensed Matter Physics}
-      \field{title}{Equalities and Inequilities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale}
+      \field{title}{Equalities and Inequalities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale}
       \field{volume}{2}
       \field{year}{2011}
       \field{pages}{329\bibrangedash 351}
       \range{pages}{23}
     \endentry
-    \entry{Landau_1976}{book}{}
+    \entry{Landau_1976}{book}{}{}
       \name{author}{2}{}{%
         {{hash=ab77fc1405f1025268c1fed8c4fe3104}{%
            family={Landau},
@@ -165,10 +175,12 @@
       }
       \strng{namehash}{0c0920d244a4ef518dc023815875721c}
       \strng{fullhash}{0c0920d244a4ef518dc023815875721c}
+      \strng{fullhashraw}{0c0920d244a4ef518dc023815875721c}
       \strng{bibnamehash}{0c0920d244a4ef518dc023815875721c}
       \strng{authorbibnamehash}{0c0920d244a4ef518dc023815875721c}
       \strng{authornamehash}{0c0920d244a4ef518dc023815875721c}
       \strng{authorfullhash}{0c0920d244a4ef518dc023815875721c}
+      \strng{authorfullhashraw}{0c0920d244a4ef518dc023815875721c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -178,7 +190,7 @@
       \field{title}{Mechanics}
       \field{year}{1976}
     \endentry
-    \entry{GrahamCumming_2015}{book}{}
+    \entry{GrahamCumming_2015}{book}{}{}
       \name{author}{1}{}{%
         {{hash=1a602b152401ec4c8f29a1555f8cad6f}{%
            family={Graham-Cumming},
@@ -191,10 +203,12 @@
       }
       \strng{namehash}{1a602b152401ec4c8f29a1555f8cad6f}
       \strng{fullhash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{fullhashraw}{1a602b152401ec4c8f29a1555f8cad6f}
       \strng{bibnamehash}{1a602b152401ec4c8f29a1555f8cad6f}
       \strng{authorbibnamehash}{1a602b152401ec4c8f29a1555f8cad6f}
       \strng{authornamehash}{1a602b152401ec4c8f29a1555f8cad6f}
       \strng{authorfullhash}{1a602b152401ec4c8f29a1555f8cad6f}
+      \strng{authorfullhashraw}{1a602b152401ec4c8f29a1555f8cad6f}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -202,7 +216,7 @@
       \field{title}{The GNU Make Book}
       \field{year}{2015}
     \endentry
-    \entry{GSL_manual_2021}{manual}{}
+    \entry{GSL_manual_2021}{manual}{}{}
       \name{author}{9}{}{%
         {{hash=385ea8f26b1fa42308b2e1c4e6a18ae5}{%
            family={Galassi},
@@ -252,10 +266,12 @@
       }
       \strng{namehash}{fc246f838e6304593fc518e560006fce}
       \strng{fullhash}{ea7fb682acfe0a75c32d72c1e1afd970}
+      \strng{fullhashraw}{ea7fb682acfe0a75c32d72c1e1afd970}
       \strng{bibnamehash}{7e7b26975814c9f5c0f7bc0f42ff017b}
       \strng{authorbibnamehash}{7e7b26975814c9f5c0f7bc0f42ff017b}
       \strng{authornamehash}{fc246f838e6304593fc518e560006fce}
       \strng{authorfullhash}{ea7fb682acfe0a75c32d72c1e1afd970}
+      \strng{authorfullhashraw}{ea7fb682acfe0a75c32d72c1e1afd970}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -263,7 +279,7 @@
       \field{title}{\href{https://www.gnu.org/software/gsl/doc/latex/gsl-ref.pdf}{GNU Scientific Library, Release 2.7}}
       \field{year}{2021}
     \endentry
-    \entry{Fishman_SciPostPhysCodeb_2022}{article}{}
+    \entry{Fishman_SciPostPhysCodeb_2022}{article}{}{}
       \name{author}{3}{}{%
         {{hash=50f69a7db78259969326b238d118a681}{%
            family={Fishman},
@@ -283,10 +299,12 @@
       }
       \strng{namehash}{7eb854ff3f4a7d2700996e6924eb9c98}
       \strng{fullhash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{fullhashraw}{7eb854ff3f4a7d2700996e6924eb9c98}
       \strng{bibnamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
       \strng{authorbibnamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
       \strng{authornamehash}{7eb854ff3f4a7d2700996e6924eb9c98}
       \strng{authorfullhash}{7eb854ff3f4a7d2700996e6924eb9c98}
+      \strng{authorfullhashraw}{7eb854ff3f4a7d2700996e6924eb9c98}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -294,7 +312,7 @@
       \field{eid}{4}
       \field{journaltitle}{SciPost Physics Codebases}
       \field{title}{The ITensor Software Library for Tensor Network Calculations}
-      \field{year}{2020}
+      \field{year}{2022}
     \endentry
   \enddatalist
 \endrefsection
